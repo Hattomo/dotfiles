@@ -1,0 +1,11 @@
+[core]
+	whitespace = cr-at-eol
+	editor = nano
+	quatepath = false
+[user]
+	name = Hattomo
+	email = 45988993+Hattomo@users.noreply.github.com
+[init]
+	defaultBranch = main
+[pull]
+	rebase = true
