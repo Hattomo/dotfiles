@@ -1,3 +1,7 @@
+[url "github:"]
+    InsteadOf = https://github.com/
+    InsteadOf = git@github.com:
+
 [core]
 	whitespace = cr-at-eol
 	editor = nano
