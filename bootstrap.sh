@@ -8,6 +8,13 @@ else
     sh git-setup.sh
 fi
 
+# remove files
+sudo rm -rf ~/.bashrc > /dev/null 2>&1
+sudo rm -rf ~/.tmux.conf > /dev/null 2>&1
+sudo rm -rf ~/.gitconfig > /dev/null 2>&1
+sudo rm -rf ~/.bash_profile > /dev/null 2>&1
+sudo rm -rf ~/.bash_logout > /dev/null 2>&1
+
 # set symlinks
 ln -sf $dotfiles_dir/.tmux.conf ~/.tmux.conf
 ln -sf $dotfiles_dir/.bashrc ~/.bashrc
