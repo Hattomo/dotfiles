@@ -9,4 +9,3 @@ fi
 # kill ssh-agent on logout
 ssh-add -D
 ssh-agent -k > /dev/null 2>&1
-fi
