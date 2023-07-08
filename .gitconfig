@@ -9,14 +9,11 @@
 [user]
 	name = Hattomo (TomohiroHattori)
 	email = 45988993+Hattomo@users.noreply.github.com
-        # signingkey = /home/hattomo/.ssh/hattomo-github-sign.pub
 [init]
 	defaultBranch = main
 [pull]
 	rebase = true
 [push]
 	default = simple
-# [gpg]
-#         format = ssh
-# [commit]
-#         gpgsign = true
+[commit]
+    gpgsign = true
