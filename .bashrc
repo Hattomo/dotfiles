@@ -98,7 +98,7 @@ alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo
 
 # 👀 check your environment===========
 if [ "${IS_ZOXIDE}" = "true" ]; then
-    echo "True"
+    eval "$(zoxide init bash --cmd cd)"
 fi
 
 # ======================================
