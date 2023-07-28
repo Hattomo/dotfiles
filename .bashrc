@@ -97,11 +97,9 @@ export LESSCHARSET=utf-8
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
 
 # 👀 check your environment===========
-# home brew
-# eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
-# eval "$(jump shell --bind=cd)"
-# eval "$(zoxide init bash --cmd cd --hook pwd)"
-# cd() { builtin cd "$@"; }
+if [ "${IS_ZOXIDE}" = "true" ]; then
+    echo "True"
+fi
 
 # ======================================
 
