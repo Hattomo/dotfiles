@@ -74,19 +74,6 @@ alias ...="cd ../.."
 alias ....="cd ../../.."
 alias .....="cd ../../../.."
 
-# git alias
-alias clone='git clone'
-alias push='git push'
-alias pull='git pull'
-alias commit='git commit -m'
-alias switch='git switch'
-alias checkout='git checkout'
-alias branch='git branch'
-alias log='git log'
-alias status='git status'
-alias merge='git merge'
-alias diff='git diff'
-
 # Don't override files
 set -o noclobber
 export LESSCHARSET=utf-8
