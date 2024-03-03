@@ -17,7 +17,8 @@ ln -sf $dotfiles_dir/.bash_profile ~/.bash_profile
 ln -sf $dotfiles_dir/.bash_logout ~/.bash_logout
 ln -sf $dotfiles_dir/.gitconfig ~/.gitconfig
 
-if "$CODESPACES" == "true"; then
+# Codespaces environment check
+if [ "$CODESPACES" = "true" ]; then
     echo "Codespaces detected"
 else
     cat ssh-agent.sh >> .bashrc
