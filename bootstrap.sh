@@ -1,13 +1,14 @@
+echo "hello"
+
 # variable setup
 dotfiles_dir=~/dotfiles
 
-
 # remove files
-sudo rm -rf ~/.bashrc > /dev/null 2>&1
-sudo rm -rf ~/.tmux.conf > /dev/null 2>&1
-sudo rm -rf ~/.gitconfig > /dev/null 2>&1
-sudo rm -rf ~/.bash_profile > /dev/null 2>&1
-sudo rm -rf ~/.bash_logout > /dev/null 2>&1
+sudo rm -rf ~/.bashrc
+sudo rm -rf ~/.tmux.conf
+sudo rm -rf ~/.gitconfig
+sudo rm -rf ~/.bash_profile
+sudo rm -rf ~/.bash_logout
 
 
 # set symlinks
