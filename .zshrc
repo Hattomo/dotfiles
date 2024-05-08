@@ -106,8 +106,7 @@ export LESSCHARSET=utf-8
 # home brew
 # eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 # eval "$(jump shell --bind=cd)"
-# eval "$(zoxide init bash --cmd cd --hook pwd)"
-# cd() { builtin cd "$@"; }
+eval "$(zoxide init zsh --cmd cd --hook pwd)"
 # eval "$(ssh-agent -s)"
 #===============================
 
