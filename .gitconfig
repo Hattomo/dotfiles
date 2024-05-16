@@ -1,18 +1,19 @@
 [core]
-	whitespace = cr-at-eol
-	editor = nano
-	quatepath = false
+        whitespace = cr-at-eol
+        editor = nano
+        quatepath = false
 [user]
-	name = Hattomo (TomohiroHattori)
-	email = 45988993+Hattomo@users.noreply.github.com
+        name = Hattomo (TomohiroHattori)
+        email = 45988993+Hattomo@users.noreply.github.com
 [init]
-	defaultBranch = main
+        defaultBranch = main
 [pull]
-	rebase = true
+        rebase = true
+        autostash = true
 [push]
-	default = simple
+        default = simple
         autoSetupRemote = true
 [commit]
-	gpgsign = true
+        gpgsign = true
 [rebase]
-        autostash = true
+        autoStash = true
